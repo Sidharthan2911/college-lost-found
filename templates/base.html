@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lost & Found</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="icon" href="/static/images/logo.png">
+</head>
+<body>
+    <header>
+        <img src="/static/images/logo.png" alt="Logo" height="60">
+        <h1>College Lost & Found</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/report">Report</a>
+            <a href="/view">View Items</a>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <p>Designed by Sidharthan | © 2025</p>
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Terms of Use</a> |
+        <a href="#">Contact</a>
+    </footer>
+</body>
+</html>

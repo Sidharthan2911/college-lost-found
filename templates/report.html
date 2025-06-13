@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2>Report a Lost Item</h2>
+    <form method="POST">
+        <input type="text" name="name" placeholder="Your Name" required><br>
+        <input type="text" name="contact" placeholder="Contact Info" required><br>
+        <input type="text" name="item" placeholder="Item Name" required><br>
+        <textarea name="description" placeholder="Item Description" required></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+{% endblock %}
